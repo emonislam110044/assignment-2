@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+    /* utility */
+    body{
+        background-color: rgb(0, 0, 190);
+    }
+    main{
+        background-color: #ffffff;
+    }
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* navigation */
+.nav-item{
+    display: flex;
+}
+.nav-bar{
+    flex: 1;
+}
+.nav-bar ul{
+    list-style: none; 
+    margin-left: 200px;
+    margin-top: 10px;
+}
+.nav-bar ul li {
+    display:inline-block;
+    margin-left: 50px;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    
+    color: #ffff;
+}
+.log-btn{
+background-color: #E02C6D;
+color: wheat;
+Width: 123px;
+Height: 44px;
+Left :1038px;
+Padding: 10px, 24px, 10px, 24px;
+ 
+}
+/*head */
+.head-left_right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     
+
+}
+
+.head-left{ 
+    width: 485px;
+    height: 230px;
+
+}
+
+.head-right{ 
+    margin-bottom: 85px;
+    margin-top: 67px;
+    
+}
+.head-right img{
+width:556px ;
+height:438px ;
+}
+.head-left button{
+    background-color: #E02C6D;
+    width:170px ;
+    height:44px ;
+    padding: 10px 24px 10px 24px;
+    border-radius: 2px;
+    border: none;
+    margin-top: 24px;
+    color: #ffffff;
+    
+  
+}
+    /* cards style */
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 45px;
+    width: 1050px;
+    margin-left: 140px;
+    margin-bottom:100px ;
+    margin-top: 85px;
+    padding: 1%;
+}
+.card{
+     
+    width:250px ;
+    height: 350px;
+    padding: 15px;
+    box-shadow: 0 0 15px gray;
+    border-radius: 8px;
+    margin-right: 30px;
+
+    
+}
+.players-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+/* highlight-part */
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.highlight{
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 65px;
+}
+.highlight-details{
+    
+    margin: auto;
+    width: 40%;
+    padding: 40px;
+    position: relative;
+}
+.highlight-details button{
+    background-color: #E02C6D;
+    width:170px ;
+    height:44px ;
+    padding: 10px 24px 10px 24px;
+    border-radius: 2px;
+    border: none;
+    margin-top: 24px;
+    color: #ffffff;
+    position: absolute;
+  
+}
+.highlight-img img{
+    width: 567px;
+    height: 427px;
+}
+    /* footer */
+.footer-img img{
+    width:484px ;
+    height: 110px ;
+}
+.social img{
+    width: 32px;
+    height:32px ;
+}
+.pera p{
+width: 336px;
+height: 31px;
+text-align: center;
+}
