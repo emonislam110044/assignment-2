@@ -250,6 +250,7 @@ text-align: center;
         grid-template-columns: repeat(1,1fr);
         grid-row-gap: 10px ;
         width: 100%;
+        margin-left: 150px;
     }
 .card{
   
@@ -259,6 +260,7 @@ text-align: center;
          display: flex;
          flex-direction: column;
         width: 100%;
+        margin-left: 20px;
         }
     
     .highlight-details{
