@@ -5,6 +5,7 @@
     /* utility */
     body{
         background-color: rgb(0, 0, 190);
+        font-family: 'Rubik', sans-serif;
     }
     main{
         background-color: #ffffff;
@@ -15,8 +16,13 @@
     align-items: center;
 }
 /* navigation */
+nav{
+    margin-right:15px ;
+}
 .nav-item{
     display: flex;
+    margin-top: 42px;
+    margin-right: 10px;
 }
 .nav-bar{
     flex: 1;
@@ -42,7 +48,10 @@ Width: 123px;
 Height: 44px;
 Left :1038px;
 Padding: 10px, 24px, 10px, 24px;
- 
+cursor: pointer;
+}
+.log-btn i{
+    margin-right: 5px;
 }
 /*head */
 .head-left_right{
@@ -56,7 +65,11 @@ Padding: 10px, 24px, 10px, 24px;
 .head-left{ 
     width: 485px;
     height: 230px;
-
+}
+.head-left h1{
+    font-size: 64px;
+    line-height: 80px;
+    color: #ffffff;
 }
 
 .head-right{ 
@@ -119,13 +132,21 @@ footer{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-row-gap: 65px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
 }
+
 .highlight-details{
-    
+
     margin: auto;
-    width: 40%;
+    width: 470px;
     padding: 40px;
     position: relative;
+}
+.highlight-titel {
+    font-weight: 700;
+    font-size: 48px;
 }
 .highlight-details button{
     background-color: #E02C6D;
@@ -140,17 +161,19 @@ footer{
   
 }
 .highlight-img img{
-    width: 567px;
-    height: 427px;
+    width: 560px;
+    height: 425px;
+    border-radius: 5px;
 }
     /* footer */
 .footer-img img{
     width:484px ;
     height: 110px ;
 }
-.social img{
-    width: 32px;
-    height:32px ;
+.social{
+    margin: 5px;
+    cursor: pointer;
+
 }
 .pera p{
 width: 336px;
